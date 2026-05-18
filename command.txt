@@ -1,0 +1,3 @@
+sudo openocd -f busblaster.cfg -f raspberry3.cfg  to open open ocd
+then telnet localhost port to connect to open ocd (optional)
+gdb remote 3333 to attach gdb
